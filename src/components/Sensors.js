@@ -10,6 +10,8 @@ import gh from '../content/assets/green-helmet.jpeg';
 import yh from '../content/assets/yellow-helmet.jpeg';
 import rh from '../content/assets/red-helmet.jpeg';
 import device from '../content/assets/pyrrha-device.jpeg';
+import test from '../content/assets/pyrrha-testing.jpeg';
+
 
 const SensorInfo = () => {
   const { t } = useContext(AppContext);
@@ -42,7 +44,7 @@ const SensorInfo = () => {
           </Column>
         </Row>
         <Row className="info-media">
-          <Column lg={{ span: 6, offset: 4 }}>
+          <Column lg={{ span: 6, offset: 4}}>
             <img
               className="sensor-image"
               src={board}
@@ -93,6 +95,12 @@ const SensorInfo = () => {
 
             <h3>{t('sensorDescription4')}</h3>
             
+            <img
+            className="testing"
+            src={test}
+            alt="pyrrha testing pic"
+            ></img>
+
             <h3>{t('TestingTarget')}</h3>
             <h4>{t('TestingTargetA')}</h4>
             <h4>{t('TestingTargetB')}</h4>
