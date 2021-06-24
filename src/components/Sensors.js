@@ -45,23 +45,36 @@ const SensorInfo = () => {
         </Row>
         <Row className="info-media">
           <Column lg={{ span: 6, offset: 4}}>
+          
             <img
               className="sensor-image"
               src={board}
               alt="A 3D printed sensor"
             ></img>
+          
             <div>
             <h4>{t('Arch-Description1')}</h4>
+            <br></br>
             <h4>{t('Arch-Description2')}</h4>
+            <br></br>
             <h4>{t('Arch-Description3')}</h4>
+            <br></br>
             <h4>{t('Arch-Description4')}</h4>
+            <br></br>
             <h4>{t('Arch-Description5')}</h4>
+            <br></br>
             <h4>{t('Arch-Description6')}</h4>
+            <br></br>
             <h4>{t('Arch-Description7')}</h4>
+            <br></br>
             <h4>{t('Arch-Description8')}</h4>
+            <br></br>
             <h4>{t('Arch-Description9')}</h4>
+            <br></br>
             <h4>{t('Arch-Description10')}</h4>
+            <br></br>
             <h4>{t('Arch-Description11')}</h4>
+            <br></br>
             </div>
 
             <h3>{t('sensorDescription2')}</h3>
@@ -78,17 +91,17 @@ const SensorInfo = () => {
             alt="prometeo dashboard"
             ></img>
             <img
-            className="dash"
+            className="dashg"
             src={gh}
             alt="green"
             ></img>
             <img
-            className="dash"
+            className="dashy"
             src={yh}
             alt="yellow"
             ></img>
             <img
-            className="dash"
+            className="dashr"
             src={rh}
             alt="red"
             ></img>
@@ -102,9 +115,22 @@ const SensorInfo = () => {
             ></img>
 
             <h3>{t('TestingTarget')}</h3>
+            <br></br>
             <h4>{t('TestingTargetA')}</h4>
             <h4>{t('TestingTargetB')}</h4>
             <h4>{t('TestingTargetC')}</h4>
+            <br></br>
+            <h3>{t('Results')}</h3>
+            <br></br>
+            <h4>{t('ResultsA')}</h4>
+            <h4>{t('ResultsB')}</h4>
+            <h4>{t('ResultsC')}</h4>
+
+
+
+
+
+            
           </Column>
         </Row>
       </Grid>

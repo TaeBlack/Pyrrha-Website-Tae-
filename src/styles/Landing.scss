@@ -163,9 +163,44 @@
   }
 
   .sensor-image {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+    width: 150%;
+  }
+
+  .device {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    width: 150%;
+  }
+
+  .dash {
+    margin-top: 1vw;
+    width: 200%;
+  }
+
+  .dashg {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    margin-right: 2vw;
+  }
+
+  .dashy {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    margin-right: 1vw;
+  }
+
+  .dashr {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    margin-left: 1vw;
+  }
+
+  .testing {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    width: 150%;
   }
 
   button {

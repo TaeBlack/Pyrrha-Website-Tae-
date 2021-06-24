@@ -9,7 +9,7 @@
   "whatopeneewButton3": "Browse code",
   "sensorTitle": "Pyrrha Explained",
 
-  "sensorDescription1": "The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.  ",
+  "sensorDescription1":"The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.  ",
   "Arch-Description1":"1. The firefighter logs into the mobile phone. The credentials are authenticated with IBM App ID. The next steps assume that authentication was successful. Then the firefighter scan for Prometeo devices with the mobile app and connect to the device thought bluetooth low energy.",
   "Arch-Description2":"2. The device sensor captures gas levels. The device sends to the mobile application sensor values at regular intervals.",
   "Arch-Description3":"3. The mobile application sends data to the IBM IoT platform.",
@@ -31,6 +31,12 @@
   "TestingTargetA": "A. Environmental data from firefighters ",
   "TestingTargetB": "B. Testing casing design, size, weight, and allocation",
   "TestingTargetC": "C. Recollecting feedback and suggestions from firefighters",
+
+  "Results": "Results:",
+  "ResultsA": "A. Data store 3 variables (Temperature, Humidity and CO Concentration) from 10 firefighters during 2 days",
+  "ResultsB": "B. Casing roadmap",
+  "ResultsC": "C. Design proposals and new allocation ideas for the device were made by firefighters",
+
 
   "sensorButtonText": "REMOVE",
   "dashboardTitle": "Team Contact",
