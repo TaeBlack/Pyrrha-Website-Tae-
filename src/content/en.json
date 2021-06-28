@@ -22,10 +22,12 @@
   "Arch-Description10":"10. The central control can view the dashboard using the web browser.",
   "Arch-Description11":"11. The mobile application regularly requests firefighter status from the RulesDecision service and shows the result using the LED on the hardware device.",
 
+  "sensorTitle1": "Pyrrha Technology",
   "sensorDescription2": "Pyrrha Device: The IoT device recollects key data: temperature, humidity, and the amount of smoke (CO Concentration) ",
 
   "sensorDescription3": "Monitoring console: Dashboard with real time alerts about the environmental data from each firefighter",
 
+  "sensorTitle2": "Pyrrha In Action",
   "sensorDescription4": "Pyrrha (Prometeo V1 Testing: February 10-11, 2020, the 1st test on the field with GRAF Department from Bombers Generlitat in Barcelona. ",
   "TestingTarget": "Testing Targets:",
   "TestingTargetA": "A. Environmental data from firefighters ",
